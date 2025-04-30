@@ -49,8 +49,10 @@ cd frontend
 npm install
 npm start
 
-##🧠 Fonctionnalités principales
-🔍 Algorithmes intégrés :
+## 🧠 Fonctionnalités principales
+
+### 🔍 Algorithmes intégrés :
+
 Dijkstra : chemin de parenté le plus court entre deux personnes.
 
 Bellman-Ford : gestion de relations indirectes ou complexes.
@@ -59,7 +61,8 @@ Prim : construction de l’arbre couvrant minimal.
 
 Kruskal : détection de sous-familles/groupes.
 
-👤 Interface utilisateur :
+### 👤 Interface utilisateur :
+
 Recherche par nom
 
 Visualisation interactive 
@@ -68,7 +71,8 @@ Ajout manuel des membres
 
 Requête de parenté entre deux individus
 
-🗃️ Stockage des données
+### 🗃️ Stockage des données:
+
 Base de données locale SQLite (projetRO.db)
 
 Format des relations : parent-enfant avec poids (degré de parenté)
