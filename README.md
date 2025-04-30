@@ -16,17 +16,16 @@ L’utilisateur peut :
 
 | Frontend       | Backend         | Base de données |
 |----------------|------------------|-----------------|
-| React.js + D3.js | Spring Boot (Java) | SQLite         |
+| React.js       | Spring Boot(Java) | SQLite         |
 
 ---
 
 ## 📁 Structure du projet
 
-/frontend --> Interface utilisateur React.js /backend --> API Spring Boot + logique métier /database --> Fichier SQLite (famille.db)
+/frontend --> Interface utilisateur React.js 
+/backend --> API Spring Boot + logique métier + fichier SQLite (projetRO.db)
 
-yaml
-Copier
-Modifier
+
 
 ---
 
@@ -63,7 +62,7 @@ Kruskal : détection de sous-familles/groupes.
 👤 Interface utilisateur :
 Recherche par nom
 
-Visualisation interactive (D3.js)
+Visualisation interactive 
 
 Ajout manuel des membres
 
