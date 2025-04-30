@@ -1,0 +1,179 @@
+.filter rect, .filter image, .filter text, .filter use {
+    filter: blur(10px);
+}
+
+#tree .male > rect {
+    fill: #71a4cc;
+}
+
+#tree .female > rect {
+    fill: #c8a2f8
+}
+
+/* Restyle les nœuds féminins */
+.node {
+    background-color: #FF46A3; /* Rose */
+    border-radius: 50%; /* Cercle */
+}
+
+.field_1 {
+    fill: #2c0e0e;
+}
+
+#tree .bft-family-menu {
+    display: block;
+    background-color: transparent;
+}
+
+#tree .bft-family-menu > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dbf1b1;
+}
+
+
+#tree .female .bft-edit-form-header {
+    /*background-image: linear-gradient(105deg, #359b00 0%, #e8f95a 100%);*/
+    background-color: #a96ff1;
+}
+
+/* CustomEditForm.css */
+#tree .bft-edit-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f4f8; /* Remplacez cette couleur de fond au besoin */
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+#tree .bft-edit-form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #e8e8e8;
+    padding-bottom: 1rem;
+    /*background-color: #039BE5;*/
+}
+
+#tree .bft-edit-form-title {
+    font-size: 1.25rem; /* Taille de police 20px */
+    color: #fff;
+    margin-left: 170px;
+}
+
+#tree .male .bft-img-button {
+    vertical-align: auto;
+}
+
+#tree .female .bft-img-button {
+    vertical-align: auto;
+    background-color: #a96ff1;
+}
+
+.bft-edit-form-close {
+    margin: 15px;
+    cursor: pointer;
+}
+
+#tree .bft-edit-form-avatar {
+    display: flex;
+    justify-content: center;
+    margin-left: -90px;
+    margin-top: -40px;
+    border-radius: 0;
+    width: 150px;
+    height: 150px;
+}
+
+.bft-edit-form-fields {
+    display: flex;
+    flex-direction: column;
+}
+
+.bft-form-fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 0.5rem 0;
+}
+
+.bft-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.bft-input label {
+    color: #333;
+    font-weight: 600;
+}
+
+.bft-input input {
+    border: 1px solid #d9d9d9;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+}
+
+.bft-link {
+    color: #106ba3;
+}
+
+.bft-button {
+    background-color: #4f46e5; /* Couleur de fond du bouton */
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.bft-button:hover {
+    background-color: #4338ca; /* Assombrir la couleur du bouton au survol */
+}
+
+.bft-button.transparent {
+    background-color: transparent;
+    color: #106ba3;
+}
+
+#tree.viewer #base_tree_menu {
+    display: none;
+}
+
+#tree.viewer .bft-img-button {
+    display: none;
+}
+
+#tree .bft-img-button svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+#tree .bft-img-button:hover {
+    background-color: #1dd71d;
+}
+
+svg.tommy .node.border-t rect {
+    stroke: #1dd71d; /* Couleur de la bordure */
+    stroke-width: 3px; /* Épaissit la bordure */
+}
+
+svg.tommy .node.border-f rect {
+    stroke: red; /* Couleur de la bordure */
+    stroke-width: 3px; /* Épaissit la bordure */
+}
+
+svg.tommy .node.visibility-blur {
+    filter: blur(10px);
+}
+
+.visibility-blur .bft-form-fieldset,.visibility-blur .bft-edit-form-title  {
+    display: none;
+}
